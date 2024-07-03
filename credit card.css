@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Trispace:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap');
+
+body{
+  font-family: "Trispace", sans-serif;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+.btn-primary{
+    background-color:#EB1933 !important;
+    width: 336px;
+    font-family: inter;
+    font-size: 18;
+    font-weight: 600;
+    color: #FAFAFA;
+    border: none;
+    border-radius: 14px;
+}
+
+#chip-icon{
+  background-image: url("images/Chip.png");
+  width: 44px;
+  height: 32px;
+}
+
+.card-container-dark #chip-icon{
+  background-image: url("images/Chip-white.png");
+  width: 44px;
+  height: 32px;
+}
+
+.card {
+    width: 336px !important;
+    height: 212px;
+    background-image: url("images/card-bg.png");
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
+  }
+
+.card-container-dark .card {
+    width: 336px !important;
+    height: 212px;
+    background-image: url("images/dark-card-bg.png");
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
+  }
+
+.container{
+    max-width: 400px !important;
+ }
+
+.card-container-dark{
+    background-color: #111111;
+    color: #FAFAFA;
+}
+.card-container{
+    background-color: white;
+    color: #303030;
+}
+
+.card-container .card-number span{
+    font-family: "Trispace", sans-serif !important;
+    font-size: 18px;
+    margin-right:24px;
+    font-weight: 600;
+    color: #303030;
+  }
+
+.card-container-dark .card-number span{
+    font-family: "Trispace", sans-serif !important;
+    font-size: 18px;
+    margin-right:24px;
+    font-weight: 600;
+    color: #FAFAFA;
+  }
+
+.cvv-info,.date{
+    font-family: "Trispace", sans-serif !important;
+    font-size: 16px;
+    margin-right: 16px;
+    font-weight: 500;
+    color: #303030;
+}
+
+.card-container-dark .cvv-info,.card-container-dark .date{
+    font-family: "Trispace", sans-serif !important;
+    font-size: 16px;
+    margin-right: 16px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+.cvv-info span{
+    background-color: #ECECEC4D;
+    opacity:90%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+   input[type="text"] {
+    background: transparent;
+    border: none;
+    color: #303030;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  body:not(.focus-visible) :focus:not(.focus-visible) {
+    background-color: rgba(236, 236, 236, 0.3);
+    color: #303030;
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
+ 
